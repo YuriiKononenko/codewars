@@ -1,5 +1,4 @@
 import org.junit.Test;
-import tasks.MorseCodeDecoder;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
