@@ -2,6 +2,8 @@
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class TriangleTester {
     static boolean isTriangle(int a, int b, int c) {
@@ -15,8 +17,8 @@ public class TriangleTester {
 
     @Test
     public void publicTests() {
-        assertEquals(true, TriangleTester.isTriangle(1, 2, 2));
-        assertEquals(false, TriangleTester.isTriangle(7, 2, 2));
+        assertTrue(TriangleTester.isTriangle(1, 2, 2));
+        assertFalse(TriangleTester.isTriangle(7, 2, 2));
     }
 
 
