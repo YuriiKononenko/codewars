@@ -11,6 +11,7 @@ public class BitCounting {
         return counter;
     }
 
+    //BEST SOLUTION
     public static int countBitsBest(int n) {
         return Integer.bitCount(n);
     }
