@@ -1,5 +1,6 @@
 import java.util.Map;
 
+//NOT FINISHED (REMOVE IS STATEMENTS)
 public class Greed {
 
     public static int greedy(int[] dice) {
